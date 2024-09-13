@@ -1,4 +1,9 @@
 .pio/
 .lib/
 .test/
+lib/
+.idea/
+include/README
+test/
+platformio.ini
 
