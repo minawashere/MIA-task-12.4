@@ -5,5 +5,5 @@ lib/
 .idea/
 include/README
 test/
-platformio.ini
+/platformio.ini
 
