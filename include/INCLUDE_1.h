@@ -14,10 +14,14 @@
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 #define clamp(v, l, h) min(max(v, l), h)
 
-#define MOTOR1_INTERRUPT 2
-#define MOTOR2_INTERRUPT 3
-#define MOTOR3_INTERRUPT
-#define MOTOR4_INTERRUPT
+#define INTERRUPT_PIN 2
+#define INTERRUPT_FEED1 3
+#define INTERRUPT_FEED2 4
+#define INTERRUPT_FEED3 1
+#define INTERRUPT_FEED4 11
+
+
+
 
 #define MOTOR1_PWM 5
 #define MOTOR2_PWM 6
